@@ -3,6 +3,10 @@
 #include<stdlib.h>
 
 int main(){
+  char name[10];
+  printf("What is your name?\n>");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   srand(time(NULL));
 int a=rand()%6+1;
 int b=rand()%6+1;
